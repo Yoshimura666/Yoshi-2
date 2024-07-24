@@ -1,0 +1,35 @@
+import UIKit
+
+/* Задание 1 */
+var friends = 5000
+ print (friends)
+ friends = 4905
+ print (friends)
+
+/* Задание 2 */
+print("Daily Goal")
+let goalSteps = 10000
+print(goalSteps)
+
+/* Задание 3 */
+var schooling = 9
+print(schooling)
+schooling = 10
+print(schooling)
+
+/* Задание 4 */
+var steps = 0
+print(steps)
+steps = 2000
+print(steps)
+print ("Хорошая работа! Вы уже на пути к своей ежедневной цели")
+
+/* Задание 5 */
+var name:String
+name = "Alimzhan"
+print(name)
+
+/* Задание 6 */
+var distanceTraveled:Double = 0
+distanceTraveled = 54.3
+print(distanceTraveled)
