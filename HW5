@@ -1,0 +1,122 @@
+// Переменная name
+var name = "Алимжан"
+print(name)
+
+// Константа favoriteQuote
+let favoriteQuote = "В чужом саду трава всегда зеленее"
+print("Моя любимая цитата - \"\(favoriteQuote)\"")
+
+// Проверка пустой строки
+let emptyString = ""
+
+if emptyString.isEmpty {
+    print("Здесь ничего нет")
+} else {
+    print("Она не пуста, как я думал")
+}
+
+
+
+
+
+
+// Константы города и области
+let city = "Астана"
+let region = "Акмолинская область"
+
+// Объединение констант
+let home = "\(city), \(region)"
+print(home)
+
+// Переменная introduction
+var introduction = "Я живу в "
+introduction += home
+print(introduction)
+
+// Константы name и age
+let name = "Алимжан"
+let age = 28
+
+// Вывод фразы с использованием переменных
+print("Меня зовут \(name), и на следующий год мне будет \(age + 1) лет")
+
+
+
+
+
+
+// Константы имени и фамилии
+let name = "Алимжан"
+let surname = "Жусыпкалиев"
+
+// Полное имя
+let fullName = "\(name) \(surname)"
+print(fullName)
+
+// Переменные предыдущего и нового рекорда
+let previousBest = 8000
+let newBest = 10000
+
+// Сообщение с поздравлением
+let congratulations = "Поздравляем, \(fullName)! Вы превзошли свой предыдущий рекорд в \(previousBest) шагов, сделав \(newBest) шагов вчера!"
+print(congratulations)
+
+
+
+
+
+
+// Константы с разными регистрами
+let nameInCaps = "АЛИМЖАН"
+let name = "алимжан"
+
+// Проверка совпадения строк
+if nameInCaps == name {
+    print("Эти две строки равны")
+} else {
+    print("Эти две строки не равны")
+}
+
+// Проверка совпадения строк с методом lowercased()
+if nameInCaps.lowercased() == name.lowercased() {
+    print("\(nameInCaps) и \(name) совпадают")
+} else {
+    print("\(nameInCaps) и \(name) не совпадают")
+}
+
+
+
+
+
+
+
+// Проверка на второе поколение
+let sonName = "Robert Downey Jr."
+
+if sonName.hasSuffix("Jr.") {
+    print("Это имя используется второе поколение")
+}
+
+
+
+
+
+
+// Проверка текста на наличие фразы
+let textToSearchThrough = "быть или не быть вот в чём вопрос"
+let textToSearchFor = "быть или не быть"
+
+if textToSearchThrough.lowercased().contains(textToSearchFor.lowercased()) {
+    print("Я нашел!")
+}
+
+
+
+
+
+
+
+
+// Количество символов в имени
+let name = "Алимжан"
+print("Количество символов в имени: \(name.count)")
